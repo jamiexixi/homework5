@@ -11,3 +11,7 @@
 + At least 1 chart has switches (multiple series)
 + At least 1 chart has annotation
 + Load at least 1 option data from external files
+
+## PowerPoint：
+
+**[W7](https://docs.google.com/presentation/d/10KVs34_9f8v-Ef94hdG7h7Trtduw8Ej1VUckkB7al_o/edit#slide=id.g1eb9583584_0_185)**
