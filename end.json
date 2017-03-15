@@ -31,6 +31,12 @@
         "borderWidth": 1,
         "formatter": "{a} ,{b0}: {c0}"
     },
+    "grid": {
+        "x": "10%",
+        "x2": "150",
+        "y": "18%",
+        "y2": "10%"
+    },
 
     "xAxis": {
         "type": "category",
@@ -82,12 +88,12 @@
         "calculable": true,
         "precision": "0.1",
         "text": ["SIZE：Energy-Used"],
-        "textGap": 30,
+        "textGap": "30",
         "textStyle": {
             "color": "black"
         },
         "inRange": {
-            "symbolSize": [10, 70]
+            "symbolSize": ["10", "70"]
         },
         "outOfRange": {
             "symbolSize": ["10", "70"],
@@ -120,6 +126,7 @@
 
             "name": "Cooking",
             "type": "scatter",
+
             "itemStyle": {
                 "normal": {
                     "opacity": "0.8",
