@@ -72,9 +72,9 @@
             </div>
             <h2 style="text-align: center;font-weight:60;margin-top: 20px">All Energy Consumption* By Sectors</h2>
             <h3 style="text-align: center;color: grey">*: All Energy Consumption equal to the sum of the three types of consumption.</h3>
-            <div class="row">
-                <div class="col-sm-12" id="all" style="width: 1200px;height:500px;"></div>
-            </div>
+
+            <div class="col-sm-12" id="all" style="width: 1200px;height:600px;"></div>
+
 
 
         </div>
@@ -95,7 +95,7 @@
                 $.getJSON('oil.json', function(data) {
                     var option = data;
                     var myChart2 = echarts.init(document.getElementById('pie2'));
-                    myChart1.setOption(option);
+                    myChart2.setOption(option);
                 })
             });
         </script>
@@ -104,7 +104,7 @@
                 $.getJSON('gas.json', function(data) {
                     var option = data;
                     var myChart3 = echarts.init(document.getElementById('pie3'));
-                    myChart1.setOption(option);
+                    myChart3.setOption(option);
                 })
             });
         </script>
@@ -113,7 +113,7 @@
                 $.getJSON('all.json', function(data) {
                     var option = data;
                     var myChart4 = echarts.init(document.getElementById('all'));
-                    myChart1.setOption(option);
+                    myChart4.setOption(option);
                 })
             });
         </script>
