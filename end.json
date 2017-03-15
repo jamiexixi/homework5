@@ -62,7 +62,6 @@
 
     "yAxis": {
         "type": "value",
-
         "name": "Energy-Used (Unit : Terajoule)",
         "min": "0",
         "max": "55000",
@@ -74,7 +73,6 @@
         "axisLine": {
             "lineStyle": {
                 "color": "black"
-
             },
             "splitLine": {
                 "show": false
