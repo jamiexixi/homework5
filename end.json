@@ -1,5 +1,4 @@
 {
-
     "title": {
         "text": "2004-2014  All Energy End-uses"
     },
@@ -8,19 +7,17 @@
         "trigger": "item",
         "formatter": "{a} ，{b} :{c} "
     },
-
     "legend": {
         "y": "5%",
-        "data": ["Space Conditioning", "Cooking", "Industrial Process/Equipment", "Lighting", "Refrigeration", "Hot Water ", "Goods Vehicle", "Bus", "Taxi", "Car", "Motorcycle", "Rail", "Marine", "Others"],
+        "data": ["Car", "Motorcycle", "Bus", "Taxi", "Goods Vehicle", "Rail", "Marine", "Space Conditioning", "Cooking", "Industrial Process/Equipment", "Lighting", "Refrigeration", "Hot Water ", "Others"],
         "selected": {
+            "Industrial Process/Equipment": false,
+            "Cooking": false,
+            "Space Conditioning": false,
             "Lighting": false,
             "Refrigeration": false,
             "Hot Water": false,
             "Goods Vehicle": false,
-            "Bus": false,
-            "Taxi": false,
-            "Car": false,
-            "Motorcycle": false,
             "Rail": false,
             "Marine": false,
             "Others": false
@@ -41,7 +38,6 @@
             }
         }
     },
-
     "xAxis": {
         "type": "category",
         "name": "Year",
@@ -59,7 +55,6 @@
         },
         "data": ["2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014"]
     },
-
     "yAxis": {
         "type": "value",
         "name": "Energy-Used (Unit : Terajoule)",
@@ -79,11 +74,10 @@
             }
         }
     },
-
     "series": [{
-            "name": "Space Conditioning",
+            "name": "Car",
             "type": "line",
-            "data": ["46186", "46658", "46502", "45298", "43392", "44117", "45511", "46204", "47158", "45562", "50129"],
+            "data": ["16987", "16682", "16267", "17118", "17059", "17449", "18247", "18879", "19561", "21158", "21085"],
             "markPoint": {
                 "symbolSize": ["60", "50"],
                 "data": [{
@@ -91,6 +85,48 @@
                     "name": "max"
                 }]
             }
+        },
+        {
+            "name": "Motorcycle",
+            "type": "line",
+            "data": ["440", "454", "426", "463", "480", "465", "436", "424", "423", "406", "426"],
+            "markPoint": {
+                "symbolSize": ["60", "50"],
+                "data": [{
+                    "type": "max",
+                    "name": "max"
+                }]
+            }
+        },
+        {
+            "name": "Bus",
+            "type": "line",
+            "data": ["21326", "20389", "20301", "19832", "18971", "19150", "18842", "18911", "19128", "19144", "18659"]
+        },
+        {
+            "name": "Taxi",
+            "type": "line",
+            "data": ["10844", "12505", "13797", "14102", "15142", "13131", "13373", "13593", "13469", "13319", "14133"]
+        },
+        {
+            "name": "Goods Vehicle",
+            "type": "line",
+            "data": ["33768", "32830", "32551", "31771", "30438", "28501", "28585", "28010", "26941", "25534", "25009"]
+        },
+        {
+            "name": "Rail",
+            "type": "line",
+            "data": ["4996", "5183", "2454", "2506", "2527", "2529", "2542", "2609", "2722", "2796", "2875"]
+        },
+        {
+            "name": "Marine",
+            "type": "line",
+            "data": ["12217", "10462", "10413", "10158", "9680", "9228", "8672", "8245", "8077", "7739", "7705"]
+        },
+        {
+            "name": "Space Conditioning",
+            "type": "line",
+            "data": ["46186", "46658", "46502", "45298", "43392", "44117", "45511", "46204", "47158", "45562", "50129"]
         },
         {
             "name": "Cooking",
@@ -117,41 +153,7 @@
             "type": "line",
             "data": ["12396", "12695", "12776", "13172", "13788", "13824", "13936", "14119", "14113", "14226", "14241"]
         },
-        {
-            "name": "Goods Vehicle",
-            "type": "line",
-            "data": ["33768", "32830", "32551", "31771", "30438", "28501", "28585", "28010", "26941", "25534", "25009"]
-        },
-        {
-            "name": "Bus",
-            "type": "line",
-            "data": ["21326", "20389", "20301", "19832", "18971", "19150", "18842", "18911", "19128", "19144", "18659"]
-        },
-        {
-            "name": "Taxi",
-            "type": "line",
-            "data": ["10844", "12505", "13797", "14102", "15142", "13131", "13373", "13593", "13469", "13319", "14133"]
-        },
-        {
-            "name": "Car",
-            "type": "line",
-            "data": ["16987", "16682", "16267", "17118", "17059", "17449", "18247", "18879", "19561", "21158", "21085"]
-        },
-        {
-            "name": "Motorcycle",
-            "type": "line",
-            "data": ["440", "454", "426", "463", "480", "465", "436", "424", "423", "406", "426"]
-        },
-        {
-            "name": "Rail",
-            "type": "line",
-            "data": ["4996", "5183", "2454", "2506", "2527", "2529", "2542", "2609", "2722", "2796", "2875"]
-        },
-        {
-            "name": "Marine",
-            "type": "line",
-            "data": ["12217", "10462", "10413", "10158", "9680", "9228", "8672", "8245", "8077", "7739", "7705"]
-        },
+
         {
             "name": "Others",
             "type": "line",

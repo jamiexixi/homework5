@@ -15,9 +15,7 @@
 
         "data": ["Residential", "Commercial", "Industrial", "Transport", "Total"],
         "selected": {
-            "Residential": false,
             "Commercial": false,
-            "Industrial": false,
             "Transport": false
         }
     },
