@@ -76,6 +76,7 @@
             },
 
             "legend": {
+                "left": "right",
                 "orient": "vertical",
                 "data": ["Residential", "Commercial", "Industrial", "Transport"]
             },
