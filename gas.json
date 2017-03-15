@@ -65,19 +65,19 @@
     "options": [{
             "title": {
                 "text": "2004-2014 Town Gas & LPG Consumption By Sectors ",
-                "subtext": " Unit : Terajoule",
-                "subtextStyle": "fontSize: 15"
+                "subtext": "\nUnit : Terajoule"
+
 
             },
             "color": ["#e966ad", "#6dc488", "#347388", "#db5716", "#3d762c"],
             "tooltip": {
                 "trigger": "item",
-                "formatter": "{a} ，{b} :{c} ,{d} (%)"
+                "formatter": "{a} ，{b} :{c} ,{d} %"
             },
 
             "legend": {
-                "right": "30%",
-                "top": "30%",
+                "right": "25%",
+                "top": "60%",
                 "orient": "vertical",
                 "data": ["Residential", "Commercial", "Industrial", "Transport"]
             },
