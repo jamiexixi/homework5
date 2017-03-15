@@ -77,145 +77,58 @@
             }
         }
     },
-    "visualMap": [{
-        "left": "right",
-        "top": "10%",
-        "dimension": "2",
-        "min": "0",
-        "max": "55000",
-        "itemWidth": "30",
-        "itemHeight": "120",
-        "calculable": true,
-        "precision": "1",
-        "text": ["SIZE：Energy-Used"],
-        "textGap": "30",
-        "textStyle": {
-            "color": "black"
-        },
 
-        "inRange": {
-            "symbolSize": ["20", "80"]
-        },
-        "outOfRange": {
-            "symbolSize": ["20", "80"],
-            "color": ["rgba(255,255,255,.2)"]
-        },
-        "controller": {
-            "inRange": {
-                "color": ["#c23531"]
-            },
-            "outOfRange": {
-                "color": ["#444"]
-            }
-        }
-    }],
     "series": [{
             "name": "Space Conditioning",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "symbolSize": ["80"],
-                    "opacity": "0.8"
+            "type": "line",
 
-                }
-            },
             "data": ["46186", "46658", "46502", "45298", "43392", "44117", "45511", "46204", "47158", "45562", "50129"]
         },
         {
 
             "name": "Cooking",
-            "type": "scatter",
-
-            "itemStyle": {
-                "normal": {
-                    "opacity": "0.8",
-                    "symbolSize": ["70"]
-                }
-            },
+            "type": "line",
             "data": ["31469", "30946", "31836", "32885", "34023", "33302", "33379", "32882", "32626", "32792", "32674"]
         },
         {
             "name": "Industrial Process/Equipment",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "opacity": "0.8",
-                    "symbolSize": ["55"]
-                }
-            },
+            "type": "line",
             "data": ["15487", "15994", "16465", "17071", "17734", "17173", "17413", "17855", "18332", "18669", "19065"]
         },
         {
 
             "name": "Lighting",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "opacity": "0.8",
-                    "symbolSize": ["60"]
-                }
-            },
+            "type": "line",
             "data": ["22190", "22536", "21608", "20372", "18965", "19199", "19563", "20045", "20411", "20446", "20421"]
         },
         {
 
             "name": "Refrigeration",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "opacity": "0.8",
-                    "symbolSize": ["38"]
-                }
-            },
+            "type": "line",
             "data": ["6796", "7446", "7918", "8496", "9121", "9244", "9213", "8962", "8834", "8716", "9145"]
         },
         {
 
             "name": "Hot Water",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "opacity": "0.8",
-                    "symbolSize": ["50"]
-                }
-            },
+            "type": "line",
             "data": ["12396", "12695", "12776", "13172", "13788", "13824", "13936", "14119", "14113", "14226", "14241"]
         },
         {
 
             "name": "Goods Vehicle",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-
-                    "opacity": "0.8",
-                    "symbolSize": ["75"]
-                }
-            },
+            "type": "line",
             "data": ["33768", "32830", "32551", "31771", "30438", "28501", "28585", "28010", "26941", "25534", "25009"]
         },
         {
 
             "name": "Bus",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "opacity": "0.8",
-                    "symbolSize": ["60"]
-                }
-            },
+            "type": "line",
             "data": ["21326", "20389", "20301", "19832", "18971", "19150", "18842", "18911", "19128", "19144", "18659"]
         },
         {
 
             "name": "Taxi",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "opacity": "0.8",
-                    "symbolSize": ["49"]
-                }
-            },
+            "type": "line",
             "data": ["10844", "12505", "13797", "14102", "15142", "13131", "13373", "13593", "13469", "13319", "14133"]
         },
         {
@@ -230,46 +143,23 @@
         },
         {
             "name": "Motorcycle",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "opacity": "0.8",
-                    "symbolSize": ["10"]
-                }
-            },
+            "type": "line",
             "data": ["440", "454", "426", "463", "480", "465", "436", "424", "423", "406", "426"]
 
         },
         {
             "name": "Rail",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "opacity": "0.8",
-                    "symbolSize": ["30"]
-                }
-            },
+            "type": "line",
             "data": ["4996", "5183", "2454", "2506", "2527", "2529", "2542", "2609", "2722", "2796", "2875"]
         },
         {
             "name": "Marine",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "symbolSize": ["50"]
-                }
-            },
+            "type": "line",
             "data": ["12217", "10462", "10413", "10158", "9680", "9228", "8672", "8245", "8077", "7739", "7705"]
         },
         {
             "name": "Others",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "opacity": "0.8",
-                    "symbolSize": ["80"]
-                }
-            },
+            "type": "line",
             "data": ["45213", "45757", "47890", "49197", "50117", "51487", "52019", "51977", "54086", "53703", "53592"]
         }
 
