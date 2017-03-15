@@ -7,12 +7,12 @@
         "#ff0000", "ff7e00", "#f4ea47", "#b1f447", "#47f4c5", "#cc5aed", "#ed5a9f", "#834124", "#435a11", "#0c3259", "#4d5052", "#5e680b", "#510aa9", "#db9cc4"
     ],
     "legend": {
-        "y": "10%",
+        "y": "5%",
         "data": ["Space Conditioning", "Cooking", "Industrial Process/Equipment", "Lighting", "Refrigeration", "Hot Water ", "Goods Vehicle", "Bus", "Taxi", "Car", "Motorcycle", "Rail", "Marine", "Others"],
         "selected": {
             "Lighting": false,
             "Refrigeration": false,
-            "Hot Water ": false,
+            "Hot Water": false,
             "Goods Vehicle": false,
             "Bus": false,
             "Taxi": false,
@@ -24,18 +24,29 @@
         }
     },
     "tooltip": {
-        "padding": 10,
-        "color": "#fff",
-        "backgroundColor": "#222",
-        "borderColor": "#777",
-        "borderWidth": 1,
-        "formatter": "{a} ,{b0}: {c0}"
+        "trigger": "item",
+        "formatter": "{a} ，{b} :{c} "
     },
     "grid": {
         "x": "10%",
         "x2": "150",
         "y": "18%",
         "y2": "10%"
+    },
+    "toolbox": {
+        "show": true,
+        "feature": {
+            "dataView": {
+                "show": true,
+                "readOnly": false
+            },
+            "restore": {
+                "show": true
+            },
+            "saveAsImage": {
+                "show": true
+            }
+        }
     },
 
     "xAxis": {
@@ -133,12 +144,7 @@
         },
         {
             "name": "Car",
-            "type": "scatter",
-            "itemStyle": {
-                "normal": {
-                    "symbolSize": ["60"]
-                }
-            },
+            "type": "line",
             "data": ["16987", "16682", "16267", "17118", "17059", "17449", "18247", "18879", "19561", "21158", "21085"]
         },
         {
