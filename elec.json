@@ -1,0 +1,311 @@
+{
+    "timeline": {
+        "data": [{
+                "name": "2005",
+                "symbol": "image://picture/sun.png",
+                "symbolSize": "10"
+            },
+            {
+                "name": "2006",
+                "symbol": "image://picture/sun.png",
+                "symbolSize": "10"
+            },
+            {
+                "name": "2007",
+                "symbol": "image://picture/sun.png",
+                "symbolSize": "10"
+            },
+            {
+                "name": "2008",
+                "symbol": "image://picture/sun.png",
+                "symbolSize": "10"
+            },
+            {
+                "name": "2009",
+                "symbol": "image://picture/sun.png",
+                "symbolSize": "10"
+            },
+            {
+                "name": "2010",
+                "symbol": "image://picture/sun.png",
+                "symbolSize": "10"
+            },
+            {
+                "name": "2011",
+                "symbol": "image://picture/sun.png",
+                "symbolSize": "10"
+            },
+            {
+                "name": "2012",
+                "symbol": "image://picture/sun.png",
+                "symbolSize": "10"
+            },
+            {
+                "name": "2013",
+                "symbol": "image://picture/sun.png",
+                "symbolSize": "10"
+            },
+
+            {
+                "name": "2014",
+                "symbol": "image://picture/sun.png",
+                "symbolSize": "10"
+            }
+
+        ],
+        "type": "number",
+        "symbolRotate": "30",
+        "playInterval": "1500",
+        "loop": true,
+        "autoplay": true,
+        "symbol": "image://picture/moon.png",
+        "symbolSize": "15"
+    },
+
+    "options": [{
+            "title": {
+                "text": "2004-2014 Electricity Consumption By Sectors",
+                "subtext": "Unit : Terajoule"
+            },
+            "color": ["#f39ed4", "#d3e490", "#90e3ea", "#f7a67a", "#812052"],
+            "tooltip": {
+                "trigger": "item",
+                "formatter": "{a} 年{b} : {c} {d} (%)"
+            },
+
+            "legend": {
+                "data": ["Residential", "Commercial", "Industrial", "Transport"]
+            },
+
+            "toolbox": {
+                "show": true,
+                "feature": {
+                    "dataView": {
+                        "show": true,
+                        "readOnly": false
+                    },
+                    "magicType": {
+                        "show": true,
+                        "type": ["line", "bar"]
+
+                    },
+                    "restore": {
+                        "show": true
+                    },
+                    "saveAsImage": {
+                        "show": true
+                    }
+                }
+            },
+            "series": [{
+                "name": "2004",
+                "type": "pie",
+                "center": ["50%", "45%"],
+                "radius": "50%",
+                "data": [{
+                    "value": "34134",
+                    "name": "Residential"
+                }, {
+                    "value": "86670",
+                    "name": "Commercial"
+                }, {
+                    "value": "15430",
+                    "name": "Industrial"
+                }, {
+                    "value": "4967",
+                    "name": "Transport"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2005",
+                "type": "pie",
+                "data": [{
+                    "value": "35811",
+                    "name": "Residential"
+                }, {
+                    "value": "88560",
+                    "name": "Commercial"
+                }, {
+                    "value": "14636",
+                    "name": "Industrial"
+                }, {
+                    "value": "5163",
+                    "name": "Transport"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2006",
+                "type": "pie",
+                "data": [{
+                    "value": "35428",
+                    "name": "Residential"
+                }, {
+                    "value": "93317",
+                    "name": "Commercial"
+                }, {
+                    "value": "14015",
+                    "name": "Industrial"
+                }, {
+                    "value": "2443",
+                    "name": "Transport"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2007",
+                "type": "pie",
+                "data": [{
+                    "value": "36422",
+                    "name": "Residential"
+                }, {
+                    "value": "95051",
+                    "name": "Commercial"
+                }, {
+                    "value": "13104",
+                    "name": "Industrial"
+                }, {
+                    "value": "2495",
+                    "name": "Transport"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2008",
+                "type": "pie",
+                "data": [{
+                    "value": "37100",
+                    "name": "Residential"
+                }, {
+                    "value": "95543",
+                    "name": "Commercial"
+                }, {
+                    "value": "12182",
+                    "name": "Industrial"
+                }, {
+                    "value": "2520",
+                    "name": "Transport"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2009",
+                "type": "pie",
+                "data": [{
+                    "value": "38972",
+                    "name": "Residential"
+                }, {
+                    "value": "96728",
+                    "name": "Commercial"
+                }, {
+                    "value": "11143",
+                    "name": "Industrial"
+                }, {
+                    "value": "2523",
+                    "name": "Transport"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2010",
+                "type": "pie",
+                "data": [{
+                    "value": "39344",
+                    "name": "Residential"
+                }, {
+                    "value": "97894",
+                    "name": "Commercial"
+                }, {
+                    "value": "11082",
+                    "name": "Industrial"
+                }, {
+                    "value": "2540",
+                    "name": "Transport"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2011",
+                "type": "pie",
+                "data": [{
+                    "value": "39872",
+                    "name": "Residential"
+                }, {
+                    "value": "99594",
+                    "name": "Commercial"
+                }, {
+                    "value": "9530",
+                    "name": "Industrial"
+                }, {
+                    "value": "2609",
+                    "name": "Transport"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2012",
+                "type": "pie",
+                "data": [{
+                    "value": "41189",
+                    "name": "Residential"
+                }, {
+                    "value": "101813",
+                    "name": "Commercial"
+                }, {
+                    "value": "9356",
+                    "name": "Industrial"
+                }, {
+                    "value": "2722",
+                    "name": "Transport"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2013",
+                "type": "pie",
+                "data": [{
+                    "value": "39941",
+                    "name": "Residential"
+                }, {
+                    "value": "101480",
+                    "name": "Commercial"
+                }, {
+                    "value": "9144",
+                    "name": "Industrial"
+                }, {
+                    "value": "2796",
+                    "name": "Transport"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2014",
+                "type": "pie",
+                "data": [{
+                    "value": "43415",
+                    "name": "Residential"
+                }, {
+                    "value": "102626",
+                    "name": "Commercial"
+                }, {
+                    "value": "9230",
+                    "name": "Industrial"
+                }, {
+                    "value": "2875",
+                    "name": "Transport"
+                }]
+            }]
+        }
+    ]
+}
