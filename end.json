@@ -114,12 +114,9 @@
             "type": "scatter",
             "itemStyle": {
                 "normal": {
-                    "symbolSize": ["20", "80"],
-                    "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["80"],
+                    "opacity": "0.8"
+
                 }
             },
             "data": ["46186", "46658", "46502", "45298", "43392", "44117", "45511", "46204", "47158", "45562", "50129"]
@@ -132,10 +129,7 @@
             "itemStyle": {
                 "normal": {
                     "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["70"]
                 }
             },
             "data": ["31469", "30946", "31836", "32885", "34023", "33302", "33379", "32882", "32626", "32792", "32674"]
@@ -146,10 +140,7 @@
             "itemStyle": {
                 "normal": {
                     "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["55"]
                 }
             },
             "data": ["15487", "15994", "16465", "17071", "17734", "17173", "17413", "17855", "18332", "18669", "19065"]
@@ -161,10 +152,7 @@
             "itemStyle": {
                 "normal": {
                     "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["60"]
                 }
             },
             "data": ["22190", "22536", "21608", "20372", "18965", "19199", "19563", "20045", "20411", "20446", "20421"]
@@ -176,10 +164,7 @@
             "itemStyle": {
                 "normal": {
                     "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["38"]
                 }
             },
             "data": ["6796", "7446", "7918", "8496", "9121", "9244", "9213", "8962", "8834", "8716", "9145"]
@@ -191,10 +176,7 @@
             "itemStyle": {
                 "normal": {
                     "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["50"]
                 }
             },
             "data": ["12396", "12695", "12776", "13172", "13788", "13824", "13936", "14119", "14113", "14226", "14241"]
@@ -207,10 +189,7 @@
                 "normal": {
 
                     "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["75"]
                 }
             },
             "data": ["33768", "32830", "32551", "31771", "30438", "28501", "28585", "28010", "26941", "25534", "25009"]
@@ -222,10 +201,7 @@
             "itemStyle": {
                 "normal": {
                     "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["60"]
                 }
             },
             "data": ["21326", "20389", "20301", "19832", "18971", "19150", "18842", "18911", "19128", "19144", "18659"]
@@ -237,10 +213,7 @@
             "itemStyle": {
                 "normal": {
                     "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["49"]
                 }
             },
             "data": ["10844", "12505", "13797", "14102", "15142", "13131", "13373", "13593", "13469", "13319", "14133"]
@@ -250,11 +223,7 @@
             "type": "scatter",
             "itemStyle": {
                 "normal": {
-                    "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["60"]
                 }
             },
             "data": ["16987", "16682", "16267", "17118", "17059", "17449", "18247", "18879", "19561", "21158", "21085"]
@@ -265,10 +234,7 @@
             "itemStyle": {
                 "normal": {
                     "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["10"]
                 }
             },
             "data": ["440", "454", "426", "463", "480", "465", "436", "424", "423", "406", "426"]
@@ -280,10 +246,7 @@
             "itemStyle": {
                 "normal": {
                     "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["30"]
                 }
             },
             "data": ["4996", "5183", "2454", "2506", "2527", "2529", "2542", "2609", "2722", "2796", "2875"]
@@ -293,11 +256,7 @@
             "type": "scatter",
             "itemStyle": {
                 "normal": {
-                    "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["50"]
                 }
             },
             "data": ["12217", "10462", "10413", "10158", "9680", "9228", "8672", "8245", "8077", "7739", "7705"]
@@ -308,10 +267,7 @@
             "itemStyle": {
                 "normal": {
                     "opacity": "0.8",
-                    "shadowBlur": "10",
-                    "shadowOffsetX": "0",
-                    "shadowOffsetY": "0",
-                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                    "symbolSize": ["80"]
                 }
             },
             "data": ["45213", "45757", "47890", "49197", "50117", "51487", "52019", "51977", "54086", "53703", "53592"]
