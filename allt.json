@@ -3,53 +3,53 @@
         "data": [{
                 "name": "2005",
                 "symbol": "image://picture/tree.png",
-                "symbolSize": "30"
+                "symbolSize": "20"
             },
             {
                 "name": "2006",
                 "symbol": "image://picture/tree.png",
-                "symbolSize": "30"
+                "symbolSize": "20"
             },
             {
                 "name": "2007",
                 "symbol": "image://picture/tree.png",
-                "symbolSize": "30"
+                "symbolSize": "20"
             },
             {
                 "name": "2008",
                 "symbol": "image://picture/tree.png",
-                "symbolSize": "30"
+                "symbolSize": "20"
             },
             {
                 "name": "2009",
                 "symbol": "image://picture/tree.png",
-                "symbolSize": "30"
+                "symbolSize": "20"
             },
             {
                 "name": "2010",
                 "symbol": "image://picture/tree.png",
-                "symbolSize": "30"
+                "symbolSize": "20"
             },
             {
                 "name": "2011",
                 "symbol": "image://picture/tree.png",
-                "symbolSize": "30"
+                "symbolSize": "20"
             },
             {
                 "name": "2012",
                 "symbol": "image://picture/tree.png",
-                "symbolSize": "30"
+                "symbolSize": "20"
             },
             {
                 "name": "2013",
                 "symbol": "image://picture/tree.png",
-                "symbolSize": "30"
+                "symbolSize": "20"
             },
 
             {
                 "name": "2014",
                 "symbol": "image://picture/tree.png",
-                "symbolSize": "30"
+                "symbolSize": "20"
             }
 
         ],
@@ -65,6 +65,7 @@
     "options": [{
             "title": {
                 "text": "2004-2014 All Consumption By Sectors",
+                "color": "#267cb9",
                 "subtext": "\nUnit : Terajoule"
 
 

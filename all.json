@@ -1,6 +1,7 @@
 {
 
     "title": {
+        "color": "#267cb9",
         "text": "2004-2014 All Products Consumption By Sectors"
     },
     "color": ["#e966ad", "#6dc488", "#347388", "#db5716", "#3d762c"],
