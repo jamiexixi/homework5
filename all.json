@@ -10,9 +10,15 @@
     },
 
     "legend": {
-        "right": "25%",
+        "right": "18%",
 
-        "data": ["Residential", "Commercial", "Industrial", "Transport", "Total"]
+        "data": ["Residential", "Commercial", "Industrial", "Transport", "Total"],
+        "selected": {
+            "Residential": false,
+            "Commercial": false,
+            "Industrial": false,
+            "Transport": false
+        }
     },
     "toolbox": {
         "show": true,
