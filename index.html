@@ -79,71 +79,26 @@
 
 
             <div class="col-sm-12" id="allt" style="width: 1200px;height:500px;"></div>
-            <div style="height: 200px; width: 100%;color:bisque;margin-bottom: 30px;margin-top: 20px">
-                <div class="row" style="margin-left: 100px;margin-top:auto;margin-bottom: auto" <div class="col-md-4">
+        </div>
+        <div style="height: 200px; width: 100%;background-color:#beeb99;margin-bottom: 30px;margin-top: 20px">
+            <div class="row" style="margin-left: 300px;margin-top:100px;margin-bottom: auto;">
+                <div class="col-md-2" style="padding-top: 30px">
                     <img src="picture/heart-4.png" style="height:120px">
                 </div>
-                <div class="col-md-8">
-                    <p style="font-weight: 80;font-size: 20px"> What's the All Energy End-uses?</p>
+                <div class="col-md-10" style="padding-top: 52px">
+                    <p style="font-weight: 80;font-size: 42px"> What's the All Energy End-uses?</p>
                 </div>
             </div>
-            <div class="col-sm-12" id="end" style="width: 1200px;height:500px;">>
-            </div>
+            <div class="container">
+                <div class="col-sm-12" id="end" style="width: 1200px;height:500px;">
+                </div>
 
-        </div>
-        <script src="//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js "></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js "></script>
-        <script src="header.js"></script>
-        <script type="text/javascript">
-            $(function() {
-                $.getJSON('elec.json', function(data) {
-                    var option = data;
-                    var myChart1 = echarts.init(document.getElementById('pie'));
-                    myChart1.setOption(option);
-                })
-            });
-        </script>
-        <script type="text/javascript">
-            $(function() {
-                $.getJSON('oil.json', function(data) {
-                    var option = data;
-                    var myChart2 = echarts.init(document.getElementById('pie2'));
-                    myChart2.setOption(option);
-                })
-            });
-        </script>
-        <script type="text/javascript">
-            $(function() {
-                $.getJSON('gas.json', function(data) {
-                    var option = data;
-                    var myChart3 = echarts.init(document.getElementById('pie3'));
-                    myChart3.setOption(option);
-                })
-            });
-        </script>
-        <script type="text/javascript">
-            $(function() {
-                $.getJSON('all.json', function(data) {
-                    var option = data;
-                    var myChart4 = echarts.init(document.getElementById('all'));
-                    myChart4.setOption(option);
-                })
-            });
-        </script>
-        <script type="text/javascript">
-            $(function() {
-                $.getJSON('allt.json', function(data) {
-                    var option = data;
-                    var myChart5 = echarts.init(document.getElementById('allt'));
-                    myChart5.setOption(option);
-                })
-            });
-        </script>
-        <div class="container">
-            <div class="back-to-top ">
-                <a href="# " class="cta--secondary ">Back To Top <i class="glyphicon glyphicon-menu-up "></i></a>
             </div>
-        </div>
+            <div class="container2">
+                <div class="back-to-top ">
+                    <a href="# " class="cta--secondary ">Back To Top <i class="glyphicon glyphicon-menu-up "></i></a>
+                </div>
+            </div>
 
 
     </main>
@@ -152,6 +107,55 @@
 
         </div>
     </footer>
+    <script src="//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js "></script>
+    <script src="header.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $.getJSON('elec.json', function(data) {
+                var option = data;
+                var myChart1 = echarts.init(document.getElementById('pie'));
+                myChart1.setOption(option);
+            })
+        });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $.getJSON('oil.json', function(data) {
+                var option = data;
+                var myChart2 = echarts.init(document.getElementById('pie2'));
+                myChart2.setOption(option);
+            })
+        });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $.getJSON('gas.json', function(data) {
+                var option = data;
+                var myChart3 = echarts.init(document.getElementById('pie3'));
+                myChart3.setOption(option);
+            })
+        });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $.getJSON('all.json', function(data) {
+                var option = data;
+                var myChart4 = echarts.init(document.getElementById('all'));
+                myChart4.setOption(option);
+            })
+        });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $.getJSON('allt.json', function(data) {
+                var option = data;
+                var myChart5 = echarts.init(document.getElementById('allt'));
+                myChart5.setOption(option);
+            })
+        });
+    </script>
+
 
     </main>
 </body>
