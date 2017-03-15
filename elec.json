@@ -3,53 +3,53 @@
         "data": [{
                 "name": "2005",
                 "symbol": "image://picture/sun.png",
-                "symbolSize": "10"
+                "symbolSize": "30"
             },
             {
                 "name": "2006",
                 "symbol": "image://picture/sun.png",
-                "symbolSize": "10"
+                "symbolSize": "30"
             },
             {
                 "name": "2007",
                 "symbol": "image://picture/sun.png",
-                "symbolSize": "10"
+                "symbolSize": "30"
             },
             {
                 "name": "2008",
                 "symbol": "image://picture/sun.png",
-                "symbolSize": "10"
+                "symbolSize": "30"
             },
             {
                 "name": "2009",
                 "symbol": "image://picture/sun.png",
-                "symbolSize": "10"
+                "symbolSize": "30"
             },
             {
                 "name": "2010",
                 "symbol": "image://picture/sun.png",
-                "symbolSize": "10"
+                "symbolSize": "30"
             },
             {
                 "name": "2011",
                 "symbol": "image://picture/sun.png",
-                "symbolSize": "10"
+                "symbolSize": "30"
             },
             {
                 "name": "2012",
                 "symbol": "image://picture/sun.png",
-                "symbolSize": "10"
+                "symbolSize": "30"
             },
             {
                 "name": "2013",
                 "symbol": "image://picture/sun.png",
-                "symbolSize": "10"
+                "symbolSize": "30"
             },
 
             {
                 "name": "2014",
                 "symbol": "image://picture/sun.png",
-                "symbolSize": "10"
+                "symbolSize": "30"
             }
 
         ],
@@ -67,7 +67,7 @@
                 "text": "2004-2014 Electricity Consumption By Sectors",
                 "subtext": "Unit : Terajoule"
             },
-            "color": ["#f39ed4", "#d3e490", "#90e3ea", "#f7a67a", "#812052"],
+            "color": ["#da5198", "#d17a2d", "#2c6476", "#3d762c", "#3d762c"],
             "tooltip": {
                 "trigger": "item",
                 "formatter": "{a} 年{b} : {c} {d} (%)"
