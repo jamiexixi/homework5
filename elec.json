@@ -65,15 +65,22 @@
     "options": [{
             "title": {
                 "text": "2004-2014 Electricity Consumption By Sectors",
-                "subtext": "Unit : Terajoule"
+                "subtext": "/n Unit : Terajoule",
+                "subtextStyle": ["fontSize: 15",
+                    "color:'#41887b'"
+                ]
+
+
+
             },
             "color": ["#da5198", "#d17a2d", "#2c6476", "#3d762c", "#3d762c"],
             "tooltip": {
                 "trigger": "item",
-                "formatter": "{a} 年{b} : {c} {d} (%)"
+                "formatter": "{a}Year： ，{b} :{c} ,{d} (%)"
             },
 
             "legend": {
+                "right": "auto",
                 "data": ["Residential", "Commercial", "Industrial", "Transport"]
             },
 
@@ -83,11 +90,6 @@
                     "dataView": {
                         "show": true,
                         "readOnly": false
-                    },
-                    "magicType": {
-                        "show": true,
-                        "type": ["line", "bar"]
-
                     },
                     "restore": {
                         "show": true
