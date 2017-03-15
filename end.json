@@ -86,17 +86,18 @@
         "itemWidth": "30",
         "itemHeight": "120",
         "calculable": true,
-        "precision": "0.1",
+        "precision": "1",
         "text": ["SIZE：Energy-Used"],
         "textGap": "30",
         "textStyle": {
             "color": "black"
         },
+
         "inRange": {
-            "symbolSize": ["10", "70"]
+            "symbolSize": ["20", "80"]
         },
         "outOfRange": {
-            "symbolSize": ["10", "70"],
+            "symbolSize": ["20", "80"],
             "color": ["rgba(255,255,255,.2)"]
         },
         "controller": {
