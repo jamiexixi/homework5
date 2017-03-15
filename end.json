@@ -114,6 +114,7 @@
             "type": "scatter",
             "itemStyle": {
                 "normal": {
+                    "symbolSize": ["20", "80"],
                     "opacity": "0.8",
                     "shadowBlur": "10",
                     "shadowOffsetX": "0",
@@ -204,6 +205,7 @@
             "type": "scatter",
             "itemStyle": {
                 "normal": {
+
                     "opacity": "0.8",
                     "shadowBlur": "10",
                     "shadowOffsetX": "0",
