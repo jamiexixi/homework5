@@ -3,10 +3,7 @@
 
     "options": [{
         "title": {
-            "text": "2004-2014 All Products Consumption By Sectors",
-
-
-
+            "text": "2004-2014 All Products Consumption By Sectors"
         },
         "color": ["#e966ad", "#6dc488", "#347388", "#db5716", "#3d762c"],
         "tooltip": {
@@ -15,13 +12,10 @@
         },
 
         "legend": {
-            "x": "right",
-            "orient": "vertical",
+            "right": "25%",
+
             "data": ["Residential", "Commercial", "Industrial", "Transport", "Total"]
         },
-
-
-
         "toolbox": {
             "show": true,
             "feature": {
@@ -74,8 +68,6 @@
                 "formatter": "{value} TJ"
             }
         }],
-
-
         "series": [{
             "name": "Residential",
             "type": "bar",
