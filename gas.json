@@ -2,53 +2,53 @@
     "timeline": {
         "data": [{
                 "name": "2005",
-                "symbol": "image://picture/moon.png",
-                "symbolSize": "30"
+                "symbol": "image://picture/star.png",
+                "symbolSize": "40"
             },
             {
                 "name": "2006",
-                "symbol": "image://picture/moon.png",
+                "symbol": "image://picture/star.png",
                 "symbolSize": "30"
             },
             {
                 "name": "2007",
-                "symbol": "image://picture/moon.png",
+                "symbol": "image://picture/star.png",
                 "symbolSize": "30"
             },
             {
                 "name": "2008",
-                "symbol": "image://picture/moon.png",
+                "symbol": "image://picture/star.png",
                 "symbolSize": "30"
             },
             {
                 "name": "2009",
-                "symbol": "image://picture/moon.png",
+                "symbol": "image://picture/star.png",
                 "symbolSize": "30"
             },
             {
                 "name": "2010",
-                "symbol": "image://picture/moon.png",
+                "symbol": "image://picture/star.png",
                 "symbolSize": "30"
             },
             {
                 "name": "2011",
-                "symbol": "image://picture/moon.png",
+                "symbol": "image://picture/star.png",
                 "symbolSize": "30"
             },
             {
                 "name": "2012",
-                "symbol": "image://picture/moon.png",
+                "symbol": "image://picture/star.png",
                 "symbolSize": "30"
             },
             {
                 "name": "2013",
-                "symbol": "image://picture/moon.png",
+                "symbol": "image://picture/star.png",
                 "symbolSize": "30"
             },
 
             {
                 "name": "2014",
-                "symbol": "image://picture/moon.png",
+                "symbol": "image://picture/star.png",
                 "symbolSize": "30"
             }
 
@@ -64,7 +64,7 @@
 
     "options": [{
             "title": {
-                "text": "2004-2014 Oil & Coal Products Consumption By Sectors",
+                "text": "2004-2014 Town Gas & LPG Consumption By Sectors ",
                 "subtext": " Unit : Terajoule",
                 "subtextStyle": "fontSize: 15"
 
@@ -101,16 +101,16 @@
                 "center": ["50%", "45%"],
                 "radius": "50%",
                 "data": [{
-                    "value": "149",
+                    "value": "18770",
                     "name": "Residential"
                 }, {
-                    "value": "5494",
+                    "value": "13635",
                     "name": "Commercial"
                 }, {
-                    "value": "4281",
+                    "value": "975",
                     "name": "Industrial"
                 }, {
-                    "value": "84126",
+                    "value": "11683",
                     "name": "Transport"
                 }]
             }]
@@ -120,16 +120,16 @@
                 "name": "2005",
                 "type": "pie",
                 "data": [{
-                    "value": "109",
+                    "value": "18839",
                     "name": "Residential"
                 }, {
-                    "value": "5215",
+                    "value": "13505",
                     "name": "Commercial"
                 }, {
-                    "value": "4256",
+                    "value": "917",
                     "name": "Industrial"
                 }, {
-                    "value": "79479",
+                    "value": "14048",
                     "name": "Transport"
                 }]
             }]
@@ -139,16 +139,16 @@
                 "name": "2006",
                 "type": "pie",
                 "data": [{
-                    "value": "79",
+                    "value": "18476",
                     "name": "Residential"
                 }, {
-                    "value": "4936",
+                    "value": "13631",
                     "name": "Commercial"
                 }, {
-                    "value": "3994",
+                    "value": "926",
                     "name": "Industrial"
                 }, {
-                    "value": "78510",
+                    "value": "15450",
                     "name": "Transport"
                 }]
             }]
@@ -158,16 +158,16 @@
                 "name": "2007",
                 "type": "pie",
                 "data": [{
-                    "value": "57",
+                    "value": "18238",
                     "name": "Residential"
                 }, {
-                    "value": "4975",
+                    "value": "13888",
                     "name": "Commercial"
                 }, {
-                    "value": "3623",
+                    "value": "917",
                     "name": "Industrial"
                 }, {
-                    "value": "77992",
+                    "value": "15678",
                     "name": "Transport"
                 }]
             }]
@@ -177,16 +177,16 @@
                 "name": "2008",
                 "type": "pie",
                 "data": [{
-                    "value": "41",
+                    "value": "18708",
                     "name": "Residential"
                 }, {
-                    "value": "4739",
+                    "value": "13471",
                     "name": "Commercial"
                 }, {
-                    "value": "4223",
+                    "value": "927",
                     "name": "Industrial"
                 }, {
-                    "value": "75358",
+                    "value": "16627",
                     "name": "Transport"
                 }]
             }]
@@ -196,16 +196,16 @@
                 "name": "2009",
                 "type": "pie",
                 "data": [{
-                    "value": "23",
+                    "value": "18736",
                     "name": "Residential"
                 }, {
-                    "value": "4753",
+                    "value": "12815",
                     "name": "Commercial"
                 }, {
-                    "value": "4063",
+                    "value": "923",
                     "name": "Industrial"
                 }, {
-                    "value": "73355",
+                    "value": "14765",
                     "name": "Transport"
                 }]
             }]
@@ -215,16 +215,16 @@
                 "name": "2010",
                 "type": "pie",
                 "data": [{
-                    "value": "13",
+                    "value": "19038",
                     "name": "Residential"
                 }, {
-                    "value": "4526",
+                    "value": "13971",
                     "name": "Commercial"
                 }, {
-                    "value": "4035",
+                    "value": "937",
                     "name": "Industrial"
                 }, {
-                    "value": "73213",
+                    "value": "15137",
                     "name": "Transport"
                 }]
             }]
@@ -234,16 +234,16 @@
                 "name": "2011",
                 "type": "pie",
                 "data": [{
-                    "value": "8",
+                    "value": "19667",
                     "name": "Residential"
                 }, {
-                    "value": "4629",
+                    "value": "13440",
                     "name": "Commercial"
                 }, {
-                    "value": "4246",
+                    "value": "959",
                     "name": "Industrial"
                 }, {
-                    "value": "72659",
+                    "value": "15506",
                     "name": "Transport"
                 }]
             }]
@@ -253,16 +253,16 @@
                 "name": "2012",
                 "type": "pie",
                 "data": [{
-                    "value": "8",
+                    "value": "19692",
                     "name": "Residential"
                 }, {
-                    "value": "4602",
+                    "value": "13428",
                     "name": "Commercial"
                 }, {
-                    "value": "4259",
+                    "value": "1112",
                     "name": "Industrial"
                 }, {
-                    "value": "72317",
+                    "value": "15384",
                     "name": "Transport"
                 }]
             }]
@@ -272,16 +272,16 @@
                 "name": "2013",
                 "type": "pie",
                 "data": [{
-                    "value": "8",
+                    "value": "19510",
                     "name": "Residential"
                 }, {
-                    "value": "4845",
+                    "value": "13640",
                     "name": "Commercial"
                 }, {
-                    "value": "4218",
+                    "value": "1225",
                     "name": "Industrial"
                 }, {
-                    "value": "72054",
+                    "value": "15348",
                     "name": "Transport"
                 }]
             }]
@@ -291,16 +291,16 @@
                 "name": "2014",
                 "type": "pie",
                 "data": [{
-                    "value": "8",
+                    "value": "19536",
                     "name": "Residential"
                 }, {
-                    "value": "4979",
+                    "value": "13875",
                     "name": "Commercial"
                 }, {
-                    "value": "4244",
+                    "value": "1249",
                     "name": "Industrial"
                 }, {
-                    "value": "70939",
+                    "value": "16185",
                     "name": "Transport"
                 }]
             }]
