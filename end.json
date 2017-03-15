@@ -1,0 +1,209 @@
+{
+    "options": [{
+        "title": {
+            "text": "2004-2014  All Energy End-uses"
+        },
+        "color": [
+            "#ff0000", "ff7e00", "#f4ea47", "#b1f447", "#47f4c5", "#cc5aed", "#ed5a9f", "#834124", "#435a11", "#0c3259", "#4d5052", "#5e680b", "#510aa9", "#db9cc4"
+        ],
+        "legend": {
+            "y": "top",
+            "data": ["Space Conditioning", "Cooking", "Industrial Process/Equipment", "Lighting", "Refrigeration", "Hot Water ",
+                "/nGoods Vehicle", "Bus", "Taxi", "Car", "Motorcycle", "Rail", "Marine", "Others"
+            ],
+            "selected": {
+                "Lighting": false,
+                "Refrigeration": false,
+                "Hot Water ": false,
+                "Goods Vehicle": false,
+                "Bus": false,
+                "Taxi": false,
+                "Car": false,
+                "Motorcycle": false,
+                "Rail": false,
+                "Marine": false,
+                "Others": false
+            }
+        },
+        "tooltip": {
+            "padding": 10,
+            "color": "#fff",
+            "backgroundColor": "#222",
+            "borderColor": "#777",
+            "borderWidth": 1,
+            "formatter": "{a} ,{b0}: {c0}"
+        },
+
+        "grid": {
+            "x": "10%",
+            "x2": "150",
+            "y": "18%",
+            "y2": "10%"
+        },
+        "xAxis": {
+            "type": "value",
+            "name": "Year",
+            "nameTextStyle": {
+                "color": "black",
+                "fontSize": "14"
+            },
+            "data": ["2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014"]
+        },
+
+        "yAxis": {
+            "type": "value",
+
+            "name": "Energy-Used (Unit : Terajoule)",
+            "min": "0",
+            "max": "55000",
+            "position": "left",
+            "nameTextStyle": {
+                "color": "black",
+                "fontSize": 16
+            },
+            "axisLine": {
+                "lineStyle": {
+                    "color": "black"
+
+                },
+                "splitLine": {
+                    "show": false
+                }
+            }
+        },
+        "visualMap": [{
+            "left": "right",
+            "top": "10%",
+            "dimension": "2",
+            "min": "0",
+            "max": "55000",
+            "itemWidth": "30",
+            "itemHeight": "120",
+            "calculable": true,
+            "precision": "0.1",
+            "text": ["SIZE：Energy-Used"],
+            "textGap": 30,
+            "textStyle": {
+                "color": "black"
+            },
+            "inRange": {
+                "symbolSize": [10, 70]
+            },
+            "outOfRange": {
+                "symbolSize": ["10", "70"],
+                "color": ["rgba(255,255,255,.2)"]
+            },
+            "controller": {
+                "inRange": {
+                    "color": ["#c23531"]
+                },
+                "outOfRange": {
+                    "color": ["#444"]
+                }
+            }
+        }],
+        "series": [{
+                "name": "Space Conditioning",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["46186", "46658", "46502", "45298", "43392", "44117", "45511", "46204", "47158", "45562", "50129"]
+            },
+            {
+
+                "name": "Cooking",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["31469", "30946", "31836", "32885", "34023", "33302", "33379", "32882", "32626", "32792", "32674"]
+            },
+            {
+                "name": "Industrial Process/Equipment",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["15487", "15994", "16465", "17071", "17734", "17173", "17413", "17855", "18332", "18669", "19065"]
+            },
+            {
+
+                "name": "Lighting",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["22190", "22536", "21608", "20372", "18965", "19199", "19563", "20045", "20411", "20446", "20421"]
+            },
+            {
+
+                "name": "Refrigeration",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["6796", "7446", "7918", "8496", "9121", "9244", "9213", "8962", "8834", "8716", "9145"]
+            },
+            {
+
+                "name": "Hot Water",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["12396", "12695", "12776", "13172", "13788", "13824", "13936", "14119", "14113", "14226", "14241"]
+            },
+            {
+
+                "name": "Goods Vehicle",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["33768", "32830", "32551", "31771", "30438", "28501", "28585", "28010", "26941", "25534", "25009"]
+            },
+            {
+
+                "name": "Bus",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["21326", "20389", "20301", "19832", "18971", "19150", "18842", "18911", "19128", "19144", "18659"]
+            },
+            {
+
+                "name": "Taxi",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["10844", "12505", "13797", "14102", "15142", "13131", "13373", "13593", "13469", "13319", "14133"]
+            },
+            {
+                "name": "Car",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["16987", "16682", "16267", "17118", "17059", "17449", "18247", "18879", "19561", "21158", "21085"]
+            },
+            {
+                "name": "Motorcycle",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["440", "454", "426", "463", "480", "465", "436", "424", "423", "406", "426"]
+
+            },
+            {
+                "name": "Rail",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["4996", "5183", "2454", "2506", "2527", "2529", "2542", "2609", "2722", "2796", "2875"]
+            },
+            {
+                "name": "Marine",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["12217", "10462", "10413", "10158", "9680", "9228", "8672", "8245", "8077", "7739", "7705"]
+            },
+            {
+                "name": "Others",
+                "type": "scatter",
+                "itemStyle": "itemStyle",
+                "data": ["45213", "45757", "47890", "49197", "50117", "51487", "52019", "51977", "54086", "53703", "53592"]
+            }
+
+
+
+
+
+
+        ]
+
+
+
+
+    }]
+}

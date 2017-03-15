@@ -69,10 +69,6 @@ a:-webkit-any-link {
     font-weight: 500;
 }
 
-.glyphicon glyphicon-menu-up:before {
-    content: "\e006";
-}
-
 main {
     padding-top: 300px;
     font-family: arial;

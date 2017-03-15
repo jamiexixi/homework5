@@ -75,7 +75,7 @@
             <h2 style="text-align: center;font-weight:60;margin-top: 20px">All Energy Consumption* By Sectors</h2>
             <h3 style="text-align: center;color: grey">*: All Energy Consumption equal to the sum of the three types of consumption.</h3>
 
-            <div class="col-sm-12" id="all" style="margin: 18px;width: 1000px;height:500px;"></div>
+            <div class="col-sm-12" id="all" style="margin: 18px;width: 1200px;height:500px;"></div>
 
 
             <div class="col-sm-12" id="allt" style="width: 1200px;height:500px;"></div>
@@ -85,7 +85,7 @@
                 <div class="col-md-2" style="padding-top: 30px">
                     <img src="picture/heart-4.png" style="height:120px">
                 </div>
-                <div class="col-md-10" style="padding-top: 52px">
+                <div class="col-md-10" style="padding-top: 49px">
                     <p style="font-weight: 80;font-size: 42px"> What's the All Energy End-uses?</p>
                 </div>
             </div>
@@ -152,6 +152,15 @@
                 var option = data;
                 var myChart5 = echarts.init(document.getElementById('allt'));
                 myChart5.setOption(option);
+            })
+        });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $.getJSON('end.json', function(data) {
+                var option = data;
+                var myChart6 = echarts.init(document.getElementById('end'));
+                myChart6.setOption(option);
             })
         });
     </script>
