@@ -2,24 +2,23 @@
     "title": {
         "text": "2004-2014  All Energy End-uses"
     },
-    "color": ["#ff0000", "ff7e00", "#f4ea47", "#b1f447", "#47f4c5", "#cc5aed", "#ed5a9f", "#834124", "#435a11", "#0c3259", "#4d5052", "#5e680b", "#510aa9", "#db9cc4"],
+    "color": ["#ff0000", "#ff7e00", "#f4ea47", "#b1f447", "#47f4c5", "#cc5aed", "#ed5a9f", "#834124", "#435a11", "#0c3259", "#4d5052", "#5e680b", "#510aa9", "#db9cc4"],
     "tooltip": {
         "trigger": "item",
         "formatter": "{a} ，{b} :{c} "
     },
     "legend": {
         "y": "5%",
-        "data": ["Car", "Motorcycle", "Bus", "Taxi", "Goods Vehicle", "Rail", "Marine", "Space Conditioning", "Cooking", "Industrial Process/Equipment", "Lighting", "Refrigeration", "Hot Water ", "Others"],
+        "textStyle": { "fontSize": "9" },
+        "data": ["Space Conditioning", "Lighting", "Refrigeration", "Cooking", "Hot Water", "Rail", "Car", "Motorcycle", "Bus", "Taxi", "Goods Vehicle", "Marine", "Industrial Process/Equipment", "Others"],
         "selected": {
-            "Goods Vehicle": false,
-            "Rail": false,
-            "Marine": false,
-            "Space Conditioning": false,
             "Cooking": false,
-            "Industrial Process/Equipment": false,
-            "Lighting": false,
-            "Refrigeration": false,
             "Hot Water": false,
+            "Goods Vehicle": false,
+            "Motorcycle": false,
+            "Bus": false,
+            "Taxi": false,
+            "Marine": false,
             "Others": false
         }
     },
@@ -75,9 +74,9 @@
         }
     },
     "series": [{
-            "name": "Car",
+            "name": "Space Conditioning",
             "type": "line",
-            "data": ["16987", "16682", "16267", "17118", "17059", "17449", "18247", "18879", "19561", "21158", "21085"],
+            "data": ["46186", "46658", "46502", "45298", "43392", "44117", "45511", "46204", "47158", "45562", "50129"],
             "markPoint": {
                 "symbolSize": ["60", "50"],
                 "data": [{
@@ -87,16 +86,39 @@
             }
         },
         {
+            "name": "Lighting",
+            "type": "line",
+            "data": ["22190", "22536", "21608", "20372", "18965", "19199", "19563", "20045", "20411", "20446", "20421"]
+        },
+        {
+            "name": "Refrigeration",
+            "type": "line",
+            "data": ["6796", "7446", "7918", "8496", "9121", "9244", "9213", "8962", "8834", "8716", "9145"]
+        },
+        {
+            "name": "Cooking",
+            "type": "line",
+            "data": ["31469", "30946", "31836", "32885", "34023", "33302", "33379", "32882", "32626", "32792", "32674"]
+        },
+        {
+            "name": "Hot Water",
+            "type": "line",
+            "data": ["12396", "12695", "12776", "13172", "13788", "13824", "13936", "14119", "14113", "14226", "14241"]
+        },
+        {
+            "name": "Rail",
+            "type": "line",
+            "data": ["4996", "5183", "2454", "2506", "2527", "2529", "2542", "2609", "2722", "2796", "2875"]
+        },
+        {
+            "name": "Car",
+            "type": "line",
+            "data": ["16987", "16682", "16267", "17118", "17059", "17449", "18247", "18879", "19561", "21158", "21085"]
+        },
+        {
             "name": "Motorcycle",
             "type": "line",
-            "data": ["440", "454", "426", "463", "480", "465", "436", "424", "423", "406", "426"],
-            "markPoint": {
-                "symbolSize": ["60", "50"],
-                "data": [{
-                    "type": "max",
-                    "name": "max"
-                }]
-            }
+            "data": ["440", "454", "426", "463", "480", "465", "436", "424", "423", "406", "426"]
         },
         {
             "name": "Bus",
@@ -114,46 +136,15 @@
             "data": ["33768", "32830", "32551", "31771", "30438", "28501", "28585", "28010", "26941", "25534", "25009"]
         },
         {
-            "name": "Rail",
-            "type": "line",
-            "data": ["4996", "5183", "2454", "2506", "2527", "2529", "2542", "2609", "2722", "2796", "2875"]
-        },
-        {
             "name": "Marine",
             "type": "line",
             "data": ["12217", "10462", "10413", "10158", "9680", "9228", "8672", "8245", "8077", "7739", "7705"]
-        },
-        {
-            "name": "Space Conditioning",
-            "type": "line",
-            "data": ["46186", "46658", "46502", "45298", "43392", "44117", "45511", "46204", "47158", "45562", "50129"]
-        },
-        {
-            "name": "Cooking",
-            "type": "line",
-            "data": ["31469", "30946", "31836", "32885", "34023", "33302", "33379", "32882", "32626", "32792", "32674"]
         },
         {
             "name": "Industrial Process/Equipment",
             "type": "line",
             "data": ["15487", "15994", "16465", "17071", "17734", "17173", "17413", "17855", "18332", "18669", "19065"]
         },
-        {
-            "name": "Lighting",
-            "type": "line",
-            "data": ["22190", "22536", "21608", "20372", "18965", "19199", "19563", "20045", "20411", "20446", "20421"]
-        },
-        {
-            "name": "Refrigeration",
-            "type": "line",
-            "data": ["6796", "7446", "7918", "8496", "9121", "9244", "9213", "8962", "8834", "8716", "9145"]
-        },
-        {
-            "name": "Hot Water",
-            "type": "line",
-            "data": ["12396", "12695", "12776", "13172", "13788", "13824", "13936", "14119", "14113", "14226", "14241"]
-        },
-
         {
             "name": "Others",
             "type": "line",
