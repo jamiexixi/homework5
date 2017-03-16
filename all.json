@@ -11,8 +11,8 @@
     },
 
     "legend": {
-        "right": "20%",
-        "y": "10",
+        "left": "25%",
+        "y": "15",
         "data": ["Residential", "Commercial", "Industrial", "Transport", "Total"],
         "selected": {
             "Industrial": false,
@@ -21,7 +21,7 @@
         "label": {
             "normal": {
                 "textStyle": {
-                    "fontSize": "10"
+                    "fontSize": "9"
                 }
             }
         }
