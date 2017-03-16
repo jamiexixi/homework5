@@ -9,7 +9,7 @@
     },
     "legend": {
         "y": "0%",
-        "left": "150",
+        "left": "300",
         "right": "30",
         "textStyle": { "fontSize": "9" },
         "data": ["Space Conditioning", "Lighting", "Refrigeration", "Cooking", "Hot Water", "Rail", "Car", "Motorcycle", "Bus", "Taxi", "Goods Vehicle", "Marine", "Industrial Process/Equipment", "Others"],
@@ -17,7 +17,7 @@
             "Cooking": false,
             "Hot Water": false,
             "Goods Vehicle": false,
-            "car": false,
+            "Car": false,
             "Motorcycle": false,
             "Bus": false,
             "Taxi": false,
