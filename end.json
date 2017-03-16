@@ -10,7 +10,7 @@
     "legend": {
         "y": "0%",
         "left": "300",
-        "right": "30",
+        "right": "40",
         "textStyle": { "fontSize": "11" },
         "data": ["Space Conditioning", "Lighting", "Refrigeration", "Cooking", "Hot Water", "Rail", "Car", "Motorcycle", "Bus", "Taxi", "Goods Vehicle", "Marine", "Industrial Process/Equipment", "Others"],
         "selected": {
