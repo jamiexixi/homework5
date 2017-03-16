@@ -77,9 +77,9 @@
             },
 
             "legend": {
-                "right": "25%",
-                "top": "60%",
-                "orient": "vertical",
+                "right": "15%",
+                "top": "5%",
+
                 "data": ["Electricity", "Oil & Coal Products", "Towngas and LPG"]
             },
 
