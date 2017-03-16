@@ -31,43 +31,48 @@
 
         </header>
         <div class="container">
+            <h1 style="box-sizing: border-box;font-size:38px;line-height: 40px; font-family:'PT Serif',serif;margin-top: 20px;">Electricity Consumption Forms More Than Half of Hong Kong’s Annual Energy End-Use</h1>
+            <h4 style="margin-top:30px;display: block;box-sizing: border-box; line-height: 29px; font-family:'PT Serif',serif;font-size: 18px;">More than half (54%) of Hong Kong’s total annual energy end-use is in the form of electricity consumption. The rest is used in the form of oil and coal products, town gas and liquefi ed petroleum gas(LPG), and to a very small extent, biodiesel.</h4>
+            <h4 style="color:gray">Written by JAMIE</h4>
+            <h5>Source: <a href="https://data.gov.hk/sc-data/dataset/hk-emsd-emsd1-energy-end-use-data" style="text-decoration: none">Hong Kong Energy End-use Data, EMSD</a></h5>
+            <hr>
+            <br>
+            <div style="float: left;margin-right: 30px; width: 600px;height:600px" id="first"></div>
 
             <h1 style="text-align: center;font-weight:100;margin: 20px"> Consumption By Sectors</h1>
             <div class="bmi-content">
                 <ul class="nav nav-tabs nav-justified" role="tablist">
                     <li role="presentation" class="active" style="font-size: 18px">
-                        <a href="#Oil" aria-controls="Oil" role="tab" data-toggle="tab">
-                            Oil & Coal Products Consumption
-                            </a>
-                    </li>
-                    <li role="presentation" style="font-size: 18px">
                         <a href="#Electricity" aria-controls="Electricity" role="tab" data-toggle="tab">
                                 Electricity Consumption
                             </a>
                     </li>
-
                     <li role="presentation" style="font-size: 18px">
                         <a href="#Town" aria-controls="Town" role="tab" data-toggle="tab">
                                 Town Gas & LPG Consumption
                             </a>
                     </li>
+                    <li role="presentation" style="font-size: 18px">
+                        <a href="#Oil" aria-controls="Oil" role="tab" data-toggle="tab">
+                            Oil & Coal Products Consumption
+                            </a>
+                    </li>
 
                 </ul>
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade in active" id="Oil">
-                        <div class="row">
-                            <div class="col-sm-12" id="pie2" style="width: 1200px;height:500px;"></div>
-                        </div>
-                    </div>
                     <div role="tabpanel" class="tab-pane fade in active" id="Electricity">
                         <div class="row">
                             <div class="col-sm-12" id="pie" style="width: 1200px;height:500px;"></div>
                         </div>
                     </div>
-
                     <div role="tabpanel" class="tab-pane fade" id="Town">
                         <div class="row">
                             <div class="col-sm-12" id="pie3" style="width: 1200px;height:500px;"></div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Oil">
+                        <div class="row">
+                            <div class="col-sm-12" id="pie2" style="width: 1200px;height:500px;"></div>
                         </div>
                     </div>
                 </div>
@@ -113,6 +118,15 @@
     <script src="//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js "></script>
     <script src="header.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $.getJSON('first.json', function(data) {
+                var option = data;
+                var myChart7 = echarts.init(document.getElementById('first'));
+                myChart7.setOption(option);
+            })
+        });
+    </script>
     <script type="text/javascript">
         $(function() {
             $.getJSON('elec.json', function(data) {

@@ -1,0 +1,279 @@
+{
+    "timeline": {
+        "inverse": true,
+        "data": [{
+                "name": "2005",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2006",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2007",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2008",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2009",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2010",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2011",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2012",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2013",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+
+            {
+                "name": "2014",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "30"
+            }
+
+        ],
+        "type": "number",
+        "symbolRotate": "30",
+        "playInterval": "1500",
+        "loop": true,
+        "autoplay": true,
+        "symbol": "image://picture/moon.png",
+        "symbolSize": "15"
+    },
+
+    "options": [{
+            "title": {
+                "text": "Energy End-Use Distribution By Fuel Type",
+                "subtext": "\nUnit : Terajoule"
+
+
+            },
+            "color": ["#0eb7b1", "#0eb779", "#1a0eb7"],
+            "tooltip": {
+                "trigger": "item",
+                "formatter": "{a} ，{b} :{c} ,{d} %"
+            },
+
+            "legend": {
+                "right": "25%",
+                "top": "60%",
+                "orient": "vertical",
+                "data": ["Electricity", "Oil & Coal Products", "Towngas and LPG"]
+            },
+
+            "toolbox": {
+                "show": true,
+                "feature": {
+                    "dataView": {
+                        "show": true,
+                        "readOnly": false
+                    },
+                    "restore": {
+                        "show": true
+                    },
+                    "saveAsImage": {
+                        "show": true
+                    }
+                }
+            },
+            "series": [{
+                "name": "2004",
+                "type": "pie",
+                "center": ["50%", "45%"],
+                "radius": "50%",
+                "data": [{
+                    "value": "141202",
+                    "name": "Electricity"
+                }, {
+                    "value": "94050",
+                    "name": "Oil & Coal Products"
+                }, {
+                    "value": "45062",
+                    "name": "Towngas and LPG"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2005",
+                "type": "pie",
+                "data": [{
+                    "value": "144171",
+                    "name": "Electricity"
+                }, {
+                    "value": "89058",
+                    "name": "Oil & Coal Products"
+                }, {
+                    "value": "47308",
+                    "name": "Towngas and LPG"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2006",
+                "type": "pie",
+                "data": [{
+                    "value": "145204",
+                    "name": "Electricity"
+                }, {
+                    "value": "87518",
+                    "name": "Oil & Coal Products"
+                }, {
+                    "value": "48482",
+                    "name": "Towngas and LPG"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2007",
+                "type": "pie",
+                "data": [{
+                    "value": "147072",
+                    "name": "Electricity"
+                }, {
+                    "value": "86647",
+                    "name": "Oil & Coal Products"
+                }, {
+                    "value": "48721",
+                    "name": "Towngas and LPG"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2008",
+                "type": "pie",
+                "data": [{
+                    "value": "147345",
+                    "name": "Electricity"
+                }, {
+                    "value": "84361",
+                    "name": "Oil & Coal Products"
+                }, {
+                    "value": "49732",
+                    "name": "Towngas and LPG"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2009",
+                "type": "pie",
+                "data": [{
+                    "value": "149366",
+                    "name": "Electricity"
+                }, {
+                    "value": "82194",
+                    "name": "Oil & Coal Products"
+                }, {
+                    "value": "47239",
+                    "name": "Towngas and LPG"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2010",
+                "type": "pie",
+                "data": [{
+                    "value": "150859",
+                    "name": "Electricity"
+                }, {
+                    "value": "81786",
+                    "name": "Oil & Coal Products"
+                }, {
+                    "value": "49084",
+                    "name": "Towngas and LPG"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2011",
+                "type": "pie",
+                "data": [{
+                    "value": "151605",
+                    "name": "Electricity"
+                }, {
+                    "value": "81542",
+                    "name": "Oil & Coal Products"
+                }, {
+                    "value": "49568",
+                    "name": "Towngas and LPG"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2012",
+                "type": "pie",
+                "data": [{
+                    "value": "155079",
+                    "name": "Electricity"
+                }, {
+                    "value": "81185",
+                    "name": "Oil & Coal Products"
+                }, {
+                    "value": "49616",
+                    "name": "Towngas and LPG"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2013",
+                "type": "pie",
+                "data": [{
+                    "value": "153362",
+                    "name": "Electricity"
+                }, {
+                    "value": "81125",
+                    "name": "Oil & Coal Products"
+                }, {
+                    "value": "49723",
+                    "name": "Towngas and LPG"
+                }]
+            }]
+        },
+        {
+            "series": [{
+                "name": "2014",
+                "type": "pie",
+                "data": [{
+                    "value": "158147",
+                    "name": "Electricity"
+                }, {
+                    "value": "80169",
+                    "name": "Oil & Coal Products"
+                }, {
+                    "value": "50844",
+                    "name": "Towngas and LPG"
+                }]
+            }]
+        }
+    ]
+}

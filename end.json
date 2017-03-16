@@ -11,15 +11,15 @@
         "y": "5%",
         "data": ["Car", "Motorcycle", "Bus", "Taxi", "Goods Vehicle", "Rail", "Marine", "Space Conditioning", "Cooking", "Industrial Process/Equipment", "Lighting", "Refrigeration", "Hot Water ", "Others"],
         "selected": {
-            "Industrial Process/Equipment": false,
-            "Cooking": false,
-            "Space Conditioning": false,
-            "Lighting": false,
-            "Refrigeration": false,
-            "Hot Water": false,
             "Goods Vehicle": false,
             "Rail": false,
             "Marine": false,
+            "Space Conditioning": false,
+            "Cooking": false,
+            "Industrial Process/Equipment": false,
+            "Lighting": false,
+            "Refrigeration": false,
+            "Hot Water": false,
             "Others": false
         }
     },

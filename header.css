@@ -139,8 +139,7 @@ main {
 
 .large-title {
     will-change: transform, opacity;
-    font-size: 40px;
-    font-size: 2em;
+    font-size: 32px;
     margin-left: 64px;
     text-shadow: 2px 2px 2px #2d2d35;
 }
