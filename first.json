@@ -1,40 +1,11 @@
 {
     "timeline": {
-        "inverse": true,
+
         "data": [{
-                "name": "2005",
+                "name": "2014",
                 "symbol": "image://picture/light.png",
-                "symbolSize": "20"
-            },
-            {
-                "name": "2006",
-                "symbol": "image://picture/light.png",
-                "symbolSize": "20"
-            },
-            {
-                "name": "2007",
-                "symbol": "image://picture/light.png",
-                "symbolSize": "20"
-            },
-            {
-                "name": "2008",
-                "symbol": "image://picture/light.png",
-                "symbolSize": "20"
-            },
-            {
-                "name": "2009",
-                "symbol": "image://picture/light.png",
-                "symbolSize": "20"
-            },
-            {
-                "name": "2010",
-                "symbol": "image://picture/light.png",
-                "symbolSize": "20"
-            },
-            {
-                "name": "2011",
-                "symbol": "image://picture/light.png",
-                "symbolSize": "20"
+                "symbolSize": "30"
+
             },
             {
                 "name": "2012",
@@ -46,21 +17,51 @@
                 "symbol": "image://picture/light.png",
                 "symbolSize": "20"
             },
-
             {
-                "name": "2014",
+                "name": "2011",
                 "symbol": "image://picture/light.png",
-                "symbolSize": "30"
+                "symbolSize": "20"
+            },
+            {
+                "name": "2010",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2009",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2008",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2007",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2006",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
+            },
+            {
+                "name": "2005",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "20"
             }
-
         ],
         "type": "number",
         "symbolRotate": "30",
         "playInterval": "1500",
         "loop": true,
         "autoplay": true,
-        "symbol": "image://picture/moon.png",
-        "symbolSize": "15"
+        "inverse": true,
+        "padding": "1",
+        "right": "10"
+
     },
 
     "options": [{
