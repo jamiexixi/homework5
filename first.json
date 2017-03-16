@@ -66,8 +66,9 @@
         "label": {
             "normal": {
                 "textStyle": {
-                    "fontSize": "9"
-                }
+                    "fontSize": "8"
+                },
+                "rotate": "15"
             }
         }
 
@@ -78,7 +79,7 @@
                 "text": "Energy End-Use Distribution By Fuel Type",
                 "subtext": "\nUnit : Terajoule"
             },
-            "color": ["#a7f585", "#6dd9d0", "#aa85f5"],
+            "color": ["#72c25d", "#5dc2b7", "#6b4ee6"],
             "tooltip": {
                 "trigger": "item",
                 "formatter": "{a} ，{b} :{c} ,{d} %"
