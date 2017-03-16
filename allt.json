@@ -70,7 +70,7 @@
 
 
             },
-            "color": ["#e966ad", "#6dc488", "#347388", "#db5716", "#3d762c"],
+            "color": ["#e966ad", "#6dc488", "#347388", "#ebcc22", "#3d762c"],
             "tooltip": {
                 "trigger": "item",
                 "formatter": "{a} ，{b} :{c} ,{d} %"

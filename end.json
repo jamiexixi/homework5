@@ -2,7 +2,7 @@
     "title": {
         "text": "2004-2014  All Energy End-uses"
     },
-    "color": ["#ff0000", "#ff7e00", "#f4ea47", "#b1f447", "#47f4c5", "#cc5aed", "#ed5a9f", "#834124", "#435a11", "#0c3259", "#4d5052", "#5e680b", "#510aa9", "#db9cc4"],
+    "color": ["#529a33", "#0c3259", "#f4ea47", "#b1f447", "#47f4c5", "#cc5aed", "#ed5a9f", "#834124", "#435a11", "#ff7e00", "#4d5052", "#5e680b", "#510aa9", "#db9cc4"],
     "tooltip": {
         "trigger": "item",
         "formatter": "{a} ，{b} :{c} "
@@ -10,7 +10,7 @@
     "legend": {
         "y": "0%",
         "left": "300",
-        "right": "40",
+        "right": "50",
         "textStyle": { "fontSize": "11" },
         "data": ["Space Conditioning", "Lighting", "Refrigeration", "Cooking", "Hot Water", "Rail", "Car", "Motorcycle", "Bus", "Taxi", "Goods Vehicle", "Marine", "Industrial Process/Equipment", "Others"],
         "selected": {
