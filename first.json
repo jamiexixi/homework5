@@ -1,13 +1,5 @@
 {
     "timeline": {
-        "label": {
-            "normal": {
-                "textStyle": {
-                    "fontSize": "9"
-                }
-            }
-        },
-
         "data": [{
                 "name": "2014",
                 "symbol": "image://picture/light.png",
@@ -15,12 +7,12 @@
 
             },
             {
-                "name": "2012",
+                "name": "2013",
                 "symbol": "image://picture/light.png",
                 "symbolSize": "15"
             },
             {
-                "name": "2013",
+                "name": "2012",
                 "symbol": "image://picture/light.png",
                 "symbolSize": "15"
             },
@@ -58,6 +50,11 @@
                 "name": "2005",
                 "symbol": "image://picture/light.png",
                 "symbolSize": "15"
+            },
+            {
+                "name": "2004",
+                "symbol": "image://picture/light.png",
+                "symbolSize": "15"
             }
         ],
         "type": "number",
@@ -65,7 +62,14 @@
         "playInterval": "1500",
         "loop": true,
         "autoplay": true,
-        "inverse": true
+        "inverse": true,
+        "label": {
+            "normal": {
+                "textStyle": {
+                    "fontSize": "9"
+                }
+            }
+        }
 
     },
 
@@ -73,22 +77,17 @@
             "title": {
                 "text": "Energy End-Use Distribution By Fuel Type",
                 "subtext": "\nUnit : Terajoule"
-
-
             },
-            "color": ["#0eb7b1", "#0eb779", "#1a0eb7"],
+            "color": ["#a7f585", "#6dd9d0", "#aa85f5"],
             "tooltip": {
                 "trigger": "item",
                 "formatter": "{a} ，{b} :{c} ,{d} %"
             },
-
             "legend": {
                 "right": "15%",
                 "top": "5%",
-
                 "data": ["Electricity", "Oil & Coal Products", "Towngas and LPG"]
             },
-
             "toolbox": {
                 "show": true,
                 "feature": {
