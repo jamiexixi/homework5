@@ -225,13 +225,7 @@
             },
             tooltip: {
                 trigger: 'item',
-                formatter: '{a} ，{b} :{c} '
-            },
-            grid: {
-                left: 2,
-                bottom: 10,
-                right: 10,
-                containLabel: true
+                formatter: '{a}，{b} :{c2} '
             },
             xAxis: [{
                 type: 'category',
@@ -273,7 +267,7 @@
                     [11, 0, '62958']
                 ],
                 symbolSize: function(data) {
-                    return Math.abs(data[2]) / 1000
+                    return Math.abs(data[2]) / 1500
                 },
                 animationDelay: function(idx) {
                     return idx * 10;
@@ -281,9 +275,22 @@
             }, {
                 name: 'Commercial',
                 type: 'scatter',
-                data: ['0', '105800', '107281', '111884', '113914', '113753', '114297', '116391', '117663', '119843', '119965', '121480'],
+                data: [
+                    [0, 1, '0'],
+                    [1, 1, '105800'],
+                    [2, 1, '107281'],
+                    [3, 1, '111884'],
+                    [4, 1, '113914'],
+                    [5, 1, '113753'],
+                    [6, 1, '114297'],
+                    [7, 1, '116391'],
+                    [8, 1, '117663'],
+                    [9, 1, '119843'],
+                    [10, 1, '119965'],
+                    [11, 1, '121480']
+                ],
                 symbolSize: function(data) {
-                    return Math.abs(data) / 1000
+                    return Math.abs(data[2]) / 1500
                 },
                 animationDelay: function(idx) {
                     return idx * 10;
@@ -291,9 +298,22 @@
             }, {
                 name: 'Industrial',
                 type: 'scatter',
-                data: ['0', '20686', '19809', '18934', '17645', '17332', '16129', '16053', '14735', '14727', '14588', '14723'],
+                data: [
+                    [0, 2, '0'],
+                    [1, 2, '20686'],
+                    [2, 2, '19809'],
+                    [3, 2, '18934'],
+                    [4, 2, '17645'],
+                    [5, 2, '17332'],
+                    [6, 2, '16129'],
+                    [7, 2, '16053'],
+                    [8, 2, '14735'],
+                    [9, 2, '14727'],
+                    [10, 2, '14588'],
+                    [11, 2, '14723']
+                ],
                 symbolSize: function(data) {
-                    return Math.abs(data) / 1000
+                    return Math.abs(data[2]) / 1500
                 },
                 animationDelay: function(idx) {
                     return idx * 10;
@@ -301,9 +321,22 @@
             }, {
                 name: 'Transport',
                 type: 'scatter',
-                data: ['0', '100776', '98689', '96404', '96165', '94504', '90643', '90889', '90774', '90423', '90198', '89999'],
+                data: [
+                    [0, 3, '0'],
+                    [1, 3, '100776'],
+                    [2, 3, '98689'],
+                    [3, 3, '96404'],
+                    [4, 3, '96165'],
+                    [5, 3, '94504'],
+                    [6, 3, '90643'],
+                    [7, 3, '90889'],
+                    [8, 3, '90774'],
+                    [9, 3, '90423'],
+                    [10, 3, '90198'],
+                    [11, 3, '89999']
+                ],
                 symbolSize: function(data) {
-                    return Math.abs(data) / 1000
+                    return Math.abs(data[2]) / 1500
                 },
                 animationDelay: function(idx) {
                     return idx * 10;
