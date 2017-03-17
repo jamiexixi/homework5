@@ -212,95 +212,91 @@
         });
     </script>
     <script type="text/javascript">
-        $(function() {
-            var myChart8 = echarts.init(document.getElementById('pao'));
-            option = {
-                color: ['#e966ad', '#6dc488', '#347388', '#ebcc22', '#3d762c'],
-                title: {
-                    text: '2004-2014 All Consumption By Sectors'
-                },
-                legend: {
-                    data: ['Residential', 'Commercial', 'Industrial', 'Transport'],
-                    left: right
-                },
-                tooltip: {
-                    position: top,
-                    formatter: '{a}, {b}: {c}'
+        var myChart8 = echarts.init(document.getElementById('pao'));
 
+
+        option = {
+            color: ['#e966ad', '#6dc488', '#347388', '#ebcc22', '#3d762c'],
+            title: {
+                text: '2004-2014 All Consumption By Sectors'
+            },
+            legend: {
+                data: ['Residential', 'Commercial', 'Industrial', 'Transport']
+            },
+            grid: {
+                left: 2,
+                bottom: 10,
+                right: 10,
+                containLabel: true
+            },
+            xAxis: [{
+                type: 'category',
+                data: ['', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014'],
+                boundaryGap: false,
+                splitLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#999',
+                        type: 'dashed'
+                    }
                 },
-                grid: {
-                    left: 2,
-                    bottom: 10,
-                    right: 10,
-                    containLabel: true
+                axisLine: {
+                    show: false
+                }
+            }],
+            yAxis: [{
+                type: 'category',
+                data: ['Residential', 'Commercial', 'Industrial', 'Transport'],
+                axisLine: {
+                    show: false
+                }
+            }],
+            series: [{
+                name: 'Residential',
+                type: 'scatter',
+                data: ['0', '53053', '54759', '53982', '54717', '55849', '57731', '58396', '59544', '60888', '59459', '62958'],
+                symbolSize: function(data) {
+                    return Math.abs(data) / 1000
                 },
-                xAxis: [{
-                    type: 'category',
-                    data: ['', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014'],
-                    boundaryGap: false,
-                    splitLine: {
-                        show: true,
-                        lineStyle: {
-                            color: '#999',
-                            type: 'dashed'
-                        }
-                    },
-                    axisLine: {
-                        show: false
-                    }
-                }],
-                yAxis: [{
-                    type: 'category',
-                    data: ['Residential', 'Commercial', 'Industrial', 'Transport'],
-                    axisLine: {
-                        show: false
-                    }
-                }],
-                series: [{
-                    name: 'Residential',
-                    type: 'scatter',
-                    data: ['0', '53053', '54759', '53982', '54717', '55849', '57731', '58396', '59544', '60888', '59459', '62958'],
-                    symbolSize: function(val) {
-                        return Math.abs(data) / 1000
-                    },
-                    animationDelay: function(idx) {
-                        return idx * 10;
-                    }
-                }, {
-                    name: 'Commercial',
-                    type: 'scatter',
-                    data: ['0', '105800', '107281', '111884', '113914', '113753', '114297', '116391', '117663', '119843', '119965', '121480'],
-                    symbolSize: function(val) {
-                        return Math.abs(data) / 1000
-                    },
-                    animationDelay: function(idx) {
-                        return idx * 10;
-                    }
-                }, {
-                    name: 'Industrial',
-                    type: 'scatter',
-                    data: ['0', '20686', '19809', '18934', '17645', '17332', '16129', '16053', '14735', '14727', '14588', '14723'],
-                    symbolSize: function(val) {
-                        return Math.abs(data) / 1000
-                    },
-                    animationDelay: function(idx) {
-                        return idx * 10;
-                    }
-                }, {
-                    name: 'Transport',
-                    type: 'scatter',
-                    data: ['0', '100776', '98689', '96404', '96165', '94504', '90643', '90889', '90774', '90423', '90198', '89999'],
-                    symbolSize: function(val) {
-                        return Math.abs(data) / 1000
-                    },
-                    animationDelay: function(idx) {
-                        return idx * 10;
-                    }
-                }]
-            }
-            myChart8.setOption(option);
-        })
+                animationDelay: function(idx) {
+                    return idx * 10;
+                }
+            }, {
+                name: 'Commercial',
+                type: 'scatter',
+                data: ['0', '105800', '107281', '111884', '113914', '113753', '114297', '116391', '117663', '119843', '119965', '121480'],
+                symbolSize: function(data) {
+                    return Math.abs(data) / 1000
+                },
+                animationDelay: function(idx) {
+                    return idx * 10;
+                }
+            }, {
+                name: 'Industrial',
+                type: 'scatter',
+                data: ['0', '20686', '19809', '18934', '17645', '17332', '16129', '16053', '14735', '14727', '14588', '14723'],
+                symbolSize: function(data) {
+                    return Math.abs(data) / 1000
+                },
+                animationDelay: function(idx) {
+                    return idx * 10;
+                }
+            }, {
+                name: 'Transport',
+                type: 'scatter',
+                data: ['0', '100776', '98689', '96404', '96165', '94504', '90643', '90889', '90774', '90423', '90198', '89999'],
+                symbolSize: function(data) {
+                    return Math.abs(data) / 1000
+                },
+                animationDelay: function(idx) {
+                    return idx * 10;
+                }
+            }]
+        }
+
+        myChart8.setOption(option);
     </script>
+
 
 
 
