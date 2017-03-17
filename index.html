@@ -225,9 +225,7 @@
                 },
                 tooltip: {
                     position: top,
-                    formatter: function(params) {
-                        return 'in' + hours[params.value[0]] + ',' + days[params.value[1]] + 'used energy:' + params.value[2] + 'TJ';
-                    }
+                    formatter: '{a}, {b}: {c}'
 
                 },
                 grid: {
