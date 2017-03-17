@@ -265,9 +265,7 @@
                 series: [{
                     name: 'Residential',
                     type: 'scatter',
-                    symbolSize: function(val) {
-                        (data[2] + 0.1) / 1000
-                    },
+
                     data: [
                         [0, 0, 0],
                         [1, 0, 53053],
@@ -282,15 +280,16 @@
                         [10, 0, 59459],
                         [11, 0, 62958]
                     ],
+                    symbolSize: function(val) {
+                        (data[2] + 0.1) / 1000
+                    },
                     animationDelay: function(idx) {
                         return idx * 10;
                     }
                 }, {
                     name: 'Commercial',
                     type: 'scatter',
-                    symbolSize: function(val) {
-                        (data[2] + 0.1) / 1000
-                    },
+
                     data: [
                         [0, 1, 0],
                         [1, 1, 105800],
@@ -305,15 +304,16 @@
                         [10, 1, 119965],
                         [11, 1, 121480]
                     ],
+                    symbolSize: function(val) {
+                        (data[2] + 0.1) / 1000
+                    },
                     animationDelay: function(idx) {
                         return idx * 10;
                     }
                 }, {
                     name: 'Industrial',
                     type: 'scatter',
-                    symbolSize: function(val) {
-                        (data[2] + 0.1) / 1000
-                    },
+
                     data: [
                         [0, 2, 0],
                         [1, 2, 20686],
@@ -328,15 +328,16 @@
                         [10, 2, 14588],
                         [11, 2, 14723]
                     ],
+                    symbolSize: function(val) {
+                        (data[2] + 0.1) / 1000
+                    },
                     animationDelay: function(idx) {
                         return idx * 10;
                     }
                 }, {
                     name: 'Transport',
                     type: 'scatter',
-                    symbolSize: function(val) {
-                        (data[2] + 0.1) / 1000
-                    },
+
                     data: [
                         [0, 3, 0],
                         [1, 3, 100776],
@@ -351,6 +352,9 @@
                         [10, 3, 90198],
                         [11, 3, 89999]
                     ],
+                    symbolSize: function(val) {
+                        (data[2] + 0.1) / 1000
+                    },
                     animationDelay: function(idx) {
                         return idx * 10;
                     }
